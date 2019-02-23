@@ -1,0 +1,26 @@
+{
+  "name": "next-storybook-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "next build src",
+    "start": "NODE_ENV=production node src/server.js",
+    "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "next": "^8.0.3",
+    "next-compose-plugins": "^2.1.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-knobs": "^4.1.13",
+    "@storybook/addon-actions": "^4.1.7",
+    "@storybook/addon-links": "^4.1.7",
+    "@storybook/addons": "^4.1.7",
+    "@storybook/react": "^4.1.7",
+    "babel-loader": "^8.0.5"
+  }
+}
