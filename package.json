@@ -9,7 +9,7 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "express": "^4.14.0",
+    "express": "^4.17.3",
     "next": "^8.0.3",
     "next-compose-plugins": "^2.1.1",
     "react": "^16.8.3",
